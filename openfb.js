@@ -9,7 +9,7 @@
  */
 var openFB = (function () {
 
-    var FB_LOGIN_URL = 'https://www.facebook.com/dialog/oauth',
+    var FB_LOGIN_URL = 'https://www.facebook.com/v2.0/dialog/oauth?',
         FB_LOGOUT_URL = 'https://www.facebook.com/logout.php',
 
         // By default we store fbtoken in sessionStorage. This can be overridden in init()
